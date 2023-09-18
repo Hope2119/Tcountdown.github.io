@@ -35,3 +35,10 @@
         line-height: 1;
         margin: 0 2rem;
     }
+
+    .countdown-el {
+        text-align: center;
+    }
+    .countdown-el span {
+        font-size: 1.3rem;
+    }
