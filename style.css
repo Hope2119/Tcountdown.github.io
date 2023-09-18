@@ -14,6 +14,7 @@
         font-family: 'Poppins', sans-serif;
         min-height: 100vh;
         margin: 0;
+        height: 100vh
     }
     h1{
         font-weight: bold;
@@ -28,6 +29,8 @@
 
     .countdown-container{
         display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
     .big-text {
         font-weight: bold;
@@ -37,6 +40,8 @@
     }
 
     .countdown-el {
+        flex-basis: 20%;
+        min-width: 100px;
         text-align: center;
     }
     .countdown-el span {
